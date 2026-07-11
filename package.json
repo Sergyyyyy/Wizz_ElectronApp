@@ -1,0 +1,24 @@
+{
+  "name": "wizz_electronapp",
+  "version": "1.0.0",
+  "description": "Initial description for this project",
+  "homepage": "https://github.com/Sergyyyyy/Wizz_ElectronApp#readme",
+  "bugs": {
+    "url": "https://github.com/Sergyyyyy/Wizz_ElectronApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergyyyyy/Wizz_ElectronApp.git"
+  },
+  "license": "ISC",
+  "author": "Gio Penalosa",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^43.1.0"
+  }
+}
