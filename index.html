@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wizz</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
     <div class="top-container">
         <h2 class="title">Wizz</h2>
-        <img src="assets/icons8-sun-48.png" alt="asset icons">
-        <img src="assets/icons8-crescent-moon-50 (1).png" alt="asset icons">
+        <img src="assets/icons8-sun-48.png" alt="asset icons" style="display: none;">
+        <img src="assets/icons8-moon-symbol-50.png" alt="asset icons">
     </div>
 
     <div class="details-cards">
         <div class="card">
             <p>BALANCE:</p>
-            <h2 id="balance-text">PHP</h2>
+            <h2 id="balance-text">₱0</h2>
         </div>
         <div class="card">
             <p>INCOME:</p>
-            <h2 id="income-text">PHP</h2>
+            <h2 id="income-text">₱0</h2>
         </div>
         <div class="card">
             <p>EXPENSE:</p>
-            <h2 id="expense-text">PHP</h2>
+            <h2 id="expense-text">₱0</h2>
         </div>
     </div>
 
@@ -42,29 +44,36 @@
     </div>
 
     <div class="table-container">
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Amount</th>
-                <th>Type</th>
-                <th>Category</th>
-                <th>Date</th>
-                <th>Action</th>
-            </tr>
-            <tr>
-                <td>Test1</td>
-                <td>300 PHP</td>
-                <td>Expense</td>
-                <td>Food</td>
-                <td>July 12, 2026</td>
-                <td>
-                    <div class="btn-group">
-                        <button>Edit</button>
-                        <button>Delete</button>
-                    </div>
-                </td>
-            </tr>
+        <table class="transaction-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test1</td>
+                    <td>₱300</td>
+                    <td>Expense</td>
+                    <td>Food</td>
+                    <td>July 12, 2026</td>
+                    <td>
+                        <div class="table-btn-group">
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
