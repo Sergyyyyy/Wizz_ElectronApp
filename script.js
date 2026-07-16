@@ -93,7 +93,15 @@ const renderTable = () => {
     });
 }
 
+// most important task: create the add transaction feature to append to transactions array first, then run renderTable base on that...
 
+// important task: create event listeners for both edit and delete btns under table-btn-group query, add the event listener after creating the element so that each newly created edit and delete btn has their own event listener...
+
+// task: create a new array for categories, append there for the actual categories of the table and the chart...
+
+// task: reflect actual data on summary cards (total income, total expenses, current balance)
+
+// task: implement lightmode/darkmode feature on icon at the top right of the app. toggle -> when clicked -> change to second icon & vice versa
 
 
 loadData();
