@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #0E1418;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.title {
+    color: #E2E9EE;
+}
+
+.details-cards {
+    padding: 0px 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    background-color: #A6BACA;
+    color: #0E1418;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 160px;
+    height: 70px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.bar-chart-container {
+    margin: 20px;
+    width: 90%;
+    height: 20%;
+    border: solid 2px #000;
+    background-color: #A6BACA;
+}
+
+.transactions-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+    color: #FFF;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-group button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: solid 2px #0E1418;
+}
+
+#btnManageCategories {
+    background-color: #A6BACA;
+    color: #000000;
+    transition: 0.4s ease-out;
+}
+
+#btnManageCategories:hover{
+    background-color: #0E1418;
+    border-color: #A6BACA;
+    color: #A6BACA;
+}
+
+#btnAddTransaction {
+    background-color: #523E67;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+}
+
+#btnAddTransaction:hover{
+    background-color: #0E1418;
+    border-color: #523E67;
+    color: #9C6BA6;
+}
+
+.table-container {
+    width: 90%;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+.transaction-table thead tr {
+    background-color: #523E67;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.transaction-table thead tr th,
+.transaction-table tbody tr td {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.transaction-table tbody tr td {
+    padding: 20px;
+    background-color: #A6BACA;
+}
+
+.table-btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-btn-group button {
+    padding: 8px 22px;
+    border-radius: 10px;
+    width: 100%
+}
+
+.btnDelete {
+    background-color: #A6BACA;
+    border: solid 3px #d16f95;
+    color: #72012d;
+    font-weight: 500;
+    transition: 0.4s ease-out;
+}
+
+.btnDelete:hover {
+    background-color: #d16f95;
+}
+
+.btnEdit {
+    background-color: #A6BACA;
+    border: solid 3px #e8daaf;
+    color: #554000;
+    font-weight: 500;
+    transition: 0.4s ease-out;
+}
+
+.btnEdit:hover {
+    background-color: #e8daaf;
+}
