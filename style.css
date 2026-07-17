@@ -112,7 +112,7 @@ body {
 .transaction-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 15px 0;
 }
 
 .transaction-table thead tr {
@@ -128,8 +128,12 @@ body {
     font-size: 0.8em;
 }
 
+.transaction-table tbody tr {
+    border-bottom: solid 1px #000;
+}
+
 .transaction-table tbody tr td {
-    padding: 20px;
+    padding: 10px;
     background-color: #A6BACA;
 }
 
@@ -138,7 +142,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .table-btn-group button {
